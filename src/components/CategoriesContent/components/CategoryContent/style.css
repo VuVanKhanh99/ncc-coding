@@ -1,0 +1,27 @@
+.InlineBlock {
+  display: inline-block;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.InlineBlock * {
+  font-family: Roboto;
+  font-weight: 400;
+  vertical-align: baseline;
+  color: #000000;
+}
+.TitleCategory {
+  font-size: 24rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #000000;
+}
+.ContentSession p {
+  font-size: 16rem;
+  font-weight: 400;
+  font-family: Roboto;
+  line-height: 18.75rem;
+  text-transform: initial;
+  text-decoration: none;
+}

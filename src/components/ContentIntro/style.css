@@ -1,0 +1,23 @@
+.ContainerContent {
+  display: block;
+  padding: 20rem 40rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.ContainerContent * {
+  font-weight: 400;
+  text-align: center;
+  text-transform: initial;
+  text-decoration: none;
+  font-size: 15rem;
+  font-family: Roboto;
+  line-height: normal;
+  letter-spacing: 1rem;
+}
+.ContainerContent h4 {
+  font-weight: 700;
+  text-transform: initial;
+  text-decoration: none;
+  font-size: 18rem;
+  font-family: Roboto;
+  line-height: 21.09rem;
+}

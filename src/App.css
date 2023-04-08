@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+html {
+  font-size: 1px;
+  font-style: normal;
+  font-family: Roboto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  letter-spacing: 1rem;
+  box-sizing: border-box;
+  line-height: 1;
   min-height: 100vh;
+}
+.ContainerApp {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-grow: 1;
+  flex-basis: auto;
+  justify-content: space-between;
+  background-color: transparent;
+  font-size: 15rem;
+}
+.MainContent {
+  margin-left: 250rem;
+  width: calc(100% - 250rem);
+  min-width: 500rem;
+}
+.MinHeight100vh {
+  min-height: 100vh;
+}
+.HeightCover {
+  height: calc(100% - 20rem);
+}
+.PaddingContent {
+  padding: 10rem 40rem 0rem 40rem;
 }
 
-.App-link {
-  color: #61dafb;
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.3);
 }

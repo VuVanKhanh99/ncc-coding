@@ -1,0 +1,13 @@
+.FooterApp {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  text-align: left;
+  text-transform: none;
+  padding: 15rem 40rem;
+  border-top: 1rem solid #000;
+  font-size: 16rem;
+  line-height: 18.75rem;
+  height: 20rem;
+  margin-bottom: 0;
+}
